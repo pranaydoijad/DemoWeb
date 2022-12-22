@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  .parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+  width: 100%;
+  height: 70%
+}
+
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 1px solid #000000;
+  margin-left: 750px;
+  width: 40%
+}
+.carousel-caption{
+margin-right: 500px;
+margin-bottom: 370px;
+font-size: 20px;
+
+}
+.button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.flex-container {
+  display: flex;
+  background-color: whitesmoke;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.c1:hover{
+background-color: #89CFF0;
+color: white;
+}
+
+.c2:hover{
+background-color: #89CFF0;
+color: white;
+}
+.c3:hover{
+background-color: #89CFF0;
+color: white;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#myVideo {
+  background-color:#F5F5F5		;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.overlay h1 {
+    background-repeat:repeat;
+    background-color:black;
+    background-size:20px;
+    color: white;
+    font-weight: 600;
+    
+    mix-blend-mode:darken;
+    
+    margin-top: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: Black;
+  
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.columnabc {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowabc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnxyz {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowxyz::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.centeredaaaa {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+ margin-right: 60px;
+}
+.containeraaaa {
+  position: relative;
+  text-align: right;
+ font-family:#777;
+  font-size:40px;
+  color: black;
+}
+
+.columnqqq {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+.columnmm {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+.columnnn {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rowmm:after {
+  content: "";
+ 
+  clear: both;
+}
+.rownn:after {
+  content: "";
+  
+  clear: both;
+}
+.rowppp {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.columnppp {
+  flex: 25%;
+  padding: 10px;
+}
+
+  </style>
+</head>
+<body>
+<div class="navbar">
+<nav class="navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header" style="margin-left: 80px;margin-bottom: 10px;">
+      <a href="index.html" class="navbar-left"><img src="logo_de10b8cfcb.svg"></a>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right" style="margin-right: 100px;margin-top: 15px;font-size: 20px">
+      <li><a href="businesslines.html">Business Lines</a></li>
+      <li><a href="aboutus.html">About us</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Investor relations</a></li>
+      <li><a href="#">Contacts</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+    </ul>
+  </div>
+</nav>
+  </div>
+
+
+
+
+
+
+
+<div style="background-color: #F0F8FF		">
+<marquee behavior="scroll" direction="left">
+    <a href="">Welcome! Feel free to surf on our website. </a>
+    <span style="margin-left:1in;"></span> 
+    <a href="">Engineering is the backbone of Praj’sintegrated offerings.</a>
+    <span style="margin-left:1in;"></span> 
+    <a href="">More than 70% of the employee strength consists of engineers of various disciplines</a>
+    <span style="margin-left:1in;"></span> 
+    <a href="">This makes it appear as two marquees in 1 line</a>
+    <span style="margin-left:1in;"></span> 
+    <a href="">This makes it appear as two marquees in 2 line</a>
+</marquee>
+</div>
+
+
+<div class="containeraaaa">
+	<img alt="" src="Bio-Energy-Banner.jpg" style=" width: 100% ; height: 20%">
+	<div class="centeredaaaa" style="color: Black;">Business lines</div>
+</div>
+
+
+<!-- Three columns -->
+<div class="row" class="center">
+  <div class="column  c1" onmouseenter="openTab('b1');" style="background:#0066b2;">
+  <img class="center" alt="" src="bio-energy-Thumb-22.jpg" style=" width: 104px; height: 104px; border-radius:100% ;"><br>
+    <p align="center">Supply Chain Management</p>
+  </div>
+  <div class="column  c2" onmouseenter="openTab('b2');" style="background:#0066b2;">
+  <img class="center" alt="" src="praj-hipurity-systems-thumb.jpg"style=" width: 104px; height: 104px; border-radius:100% ">
+  <br>
+   <p align="center"> Operations & Maintenance</p>
+  </div>
+  <div class="column  c3" onmouseenter="openTab('b3');" style="background:#0066b2;">
+  <img class="center" alt="" src="cPES-new-catagory.jpg"style="width: 104px; height: 104px; border-radius:100%">
+  <br>
+   <p align="center"> Praj Matrix – R&D Center</p>
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#89CFF0;align-items:flex-start;" >
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Resources</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Supply Chain Management</b></h1>
+      <p><span style="font-size:24px">Engineering is the backbone of Praj’sintegrated offerings.</span>
+More than 70% of the employee strength consists of engineers of various disciplines – mechanical, chemical, electrical, civil, instrumentation etc.
+Knowledge and experience coupled with the latest design software, engineering team ensures accuracy and smooth interfacing between various modules of an integrated plant. With global presence, comes the expertise in various global codes and standards. </p>                <button class="button">Download Application</button>
+    </div>
+    <div class="column-33">
+        <img src="Engineering-1.jpg" width="335" height="471" >
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#89CFF0">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <div class="container">
+  <div class="row">
+    <div class="column-33">
+      <img src="Engineering-1.jpg" width="335" height="471" >
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Resources</b></h1>
+      <h1 class="large-font" style="color:red;"><b>Operations & Maintenance</b></h1>
+      <p><span style="font-size:24px">Engineering is the backbone of Praj’sintegrated offerings.</span> More than 70% of the employee strength consists of engineers of various disciplines – mechanical, chemical, electrical, civil, instrumentation etc.
+Knowledge and experience coupled with the latest design software, engineering team ensures accuracy and smooth interfacing between various modules of an integrated plant. With global presence, comes the expertise in various global codes and standards.                  </button>
+    </p>
+      <button class="button" style="background-color:red">Read More</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#89CFF0">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Resources</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Praj Matrix – R&D Center</b></h1>
+      <p><span style="font-size:24px">Engineering is the backbone of Praj’sintegrated offerings.</span>
+More than 70% of the employee strength consists of engineers of various disciplines – mechanical, chemical, electrical, civil, instrumentation etc.
+Knowledge and experience coupled with the latest design software, engineering team ensures accuracy and smooth interfacing between various modules of an integrated plant. With global presence, comes the expertise in various global codes and standards. </p>                <button class="button">Download Application</button>
+    </div>
+    <div class="column-33">
+        <img src="Engineering-1.jpg" width="335" height="471" >
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+ <div class="rowmm">
+ <div class="columnqqq" style="background-color:dodgerblue; padding: 40px;color:White; font-size: 20px">
+    <h2>Looking for collaboration?</h2>
+    <p>We are here to answer any question you may have. Feel free to reach via <a href="" title="Email us" style="color: white; text-decoration: underline;">contact form</a>.</p>
+    <a href="tel:+912022941299" style="color: white;text-decoration: underline;" title="Call us">+91 20 2294 1299</a><br>
+    <a href="" title="Email us" style="color: white;text-decoration: underline;">info@praj.net</a>
+    <p>"Praj Tower" 274 &amp; 275/2, Bhumkar Chowk, Hinjewadi Road, Hinjewadi, Pune 411057, Maharashtra, India.</p>
+    <div class="rowppp">
+  <div class="columnppp">
+    <a href=""><img src="1260664.png" alt="Snow" style="width:30%"></a>
+  </div>
+  <div class="columnppp">
+    <a href=""><img src="1738777.png" alt="Forest" style="width:30%"></a>
+  </div>
+  <div class="columnppp">
+    <a href=""><img src="5771788.png" alt="Mountains" style="width:30%"></a>
+  </div>
+  <div class="columnppp">
+    <a href=""><img src="702273.png" alt="Mountains" style="width:30%"></a>
+  </div>
+</div>
+  </div>
+ 
+
+ <div class="rowmm">
+  
+  <div class="columnmm" style="background-color:#F5F5F5; padding: 30px; color:#1c2b4ad4; font-size: 15px">
+    <a href=""><h2>Company</h2></a>
+    <a href=""><p>Company Profile</p></a>
+    <a href=""><p>Praj Story</p></a>
+    <a href=""><p>Awards</p></a>
+    <a href=""><p>Praj Around the World</p></a>
+  </div>
+  
+  <div class="columnmm" style="background-color:#F5F5F5;padding: 30px;color:#1c2b4ad4; font-size: 15px">
+    <a href=""><h2>Business Lines</h2></a>
+    <a href=""><p>BioEnergy</p></a>
+    <a href=""><p>Praj HiPurity Systems</p></a>
+    <a href=""><p>Critical Process Equipment & Skids</p></a>
+    <a href=""><p>Wastewater Treatment</p></a>
+    <a href=""><p>Brewery & Beverages</p></a>
+  </div>
+ 
+ </div>
+  
+  
+  <div class="rownn">
+ 
+ <div class="columnnn" style="background-color:#F5F5F5;padding: 30px;color:#1c2b4ad4; font-size: 15px">
+    <a href=""><h2>Resources</h2></a>
+    <a href=""><p>Manufacturing</p></a>
+    <a href=""><p>Engineering</p></a>
+    <a href=""><p>Project Management</p></a>
+    <a href=""><p>Supply Chain Management</p></a>
+    <a href=""><p>Operations & Maintenance</p></a>
+    <a href=""><p>Praj Matrix – R&D Center</p></a>
+    <button class="button" style="background-color:#1c2b4ad4;">Read More</button>
+  </div>
+   
+   <div class="columnnn" style="background-color:#F5F5F5;padding: 30px;color:#1c2b4ad4; font-size: 15px">
+    <a href=""><h2>Quick Links</h2></a>
+    <a href=""><p>Praj Matrix – R&D Center</p></a>
+    <a href=""><p>Investor Lounge</p></a>
+    <a href=""><p>Downloads</p></a>
+    <a href=""><p>Media</p></a>
+    <a href=""><p>Careers</p></a>
+    <a href=""><p>Praj Foundation</p></a>
+    <a href=""><p>Blog</p></a>
+    <a href=""><p>Contact Us</p></a>
+  </div>
+  
+  </div>
+</div>
+
+<div class="copyright-txt" style="background-color:#F5F5F5;padding-bottom: 20px;text-align: center;font-size: 20px;height: 200px">
+© <span id="cryear">2022</span> Praj Industries | All Rights Reserved.
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+</body>
+</html>
